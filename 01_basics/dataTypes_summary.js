@@ -24,3 +24,34 @@ console.log(typeof myObj );
 console.log(typeof myFunction);
 
 console.log(typeof myObj, typeof myFunction);
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+// Memory Management  
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let myYoutubename = "ShubhYT"
+
+let anotherName = "myYoutubename"
+anotherName ="Tripathijii"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+// heap memory
+
+console.log("Heap Memory");
+
+let userone = {
+    email: "shubh@google.com",
+    upi : "user@ygl"
+}
+
+let userTwo = userone
+
+userTwo.email = "user@google.com",
+
+console.log(userone.email);
+console.log(userTwo.email);
